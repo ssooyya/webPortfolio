@@ -1313,3 +1313,27 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+#footer p.colorlib-social-icons a {
+  margin-right: 10px;
+}
+
+#footer p.colorlib-social-icons i,
+#footer p.colorlib-social-icons .iconify {
+  font-size: 24px;
+  color: #CA82F8;
+  vertical-align: middle;
+  transition: color 0.2s ease;
+}
+
+.notion-icon {
+  font-size: 22px;          /* 살짝 키움 */
+  position: relative;
+  top: 1px;                 /* 세로 위치 보정 */
+  color: #b58cff;           /* 현재 보라색 톤과 통일 */
+  transition: color 0.2s ease;
+}
+#footer .iconify {
+  font-size: 22px;   /* SVG 특성상 살짝 작게 */
+  position: relative;
+  top: 1px;          /* 세로 기준선 보정 */
+}
