@@ -1342,3 +1342,17 @@ input[type="text"] {
   padding: 0;
   margin: 0;
 }
+.iconify {
+  font-size: 24px;   /* SVG 특성상 살짝 작게 */
+  position: relative;
+  top: 1px;          /* 세로 기준선 보정 */
+}
+.date {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  color: #000000; }
+.position {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000; }
